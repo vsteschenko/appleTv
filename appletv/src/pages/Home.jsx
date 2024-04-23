@@ -14,7 +14,7 @@ const Home = () => {
         <>
             <Nav />
             <Logo />
-            <BackgroundImage src='./images/BackgroundImage.png' alt="A wall full of posters" />
+            <BackgroundImage src='./Images/BackgroundImage.png' alt="A wall full of posters" />
             <div className="SubInfo">Apple TV+ has it all<br/>Start watching now.</div>
             <button className="ButtonSubscribe">Subscribe</button>
             <ListOfUpNext />
