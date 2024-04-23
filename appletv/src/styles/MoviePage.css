@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.MoviePage{
+    position: relative;
+
+    height: 100vh;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.MovieImage {
+    position: relative;
+    height: 100vh;
+}
+
+.ButtonWatch {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 84%;
+    left: 25px;
+    border-radius: 10px;
+    outline: none;
+    background: white;
+    cursor: pointer;
+    border: 0px solid white;
+}
+.Title {
+    position: absolute;
+    top: 10%;
+    left: 50px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 1;
+}
+.Overview {
+    width: 50%;
+    position: absolute;
+    top: 84%;
+    left: 300px;
+    color: white;
+    font-size: 17px;
+    z-index: 1;
+}
+.Genres {
+    position: absolute;
+    top: 95%;
+    left: 400px;
+    color: white;
+    font-size: 17px;
+    z-index: 1;
+}
